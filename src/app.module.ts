@@ -9,6 +9,7 @@ import { APP_GUARD } from '@nestjs/core';
 import { JwtAuthGuard } from './auth/jwt-auth.guard';
 import { Users } from './users/users.entity';
 import { Document } from './document/document.entity';
+import { KafkaModule } from './kafka/kafka.module';
 
 @Module({
   imports: [
@@ -33,6 +34,7 @@ import { Document } from './document/document.entity';
     UsersModule,
     DocumentModule,
     IngestionModule,
+    KafkaModule,
   ],
   controllers: [],
   providers: [
