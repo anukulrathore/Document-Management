@@ -12,7 +12,7 @@ describe('KafkaService', () => {
     service = module.get<KafkaService>(KafkaService);
   });
 
-  it('should be defined', () => {
+  it('explained', () => {
     expect(service).toBeDefined();
   });
 });
