@@ -10,11 +10,6 @@ This repository contains a NestJS backend application designed to manage users, 
   - [Document Management](#document-management)
   - [Ingestion Trigger](#ingestion-trigger)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -58,10 +53,8 @@ This repository contains a NestJS backend application designed to manage users, 
 
 - **Integration with Python Backend**:
   - APIs to initiate ingestion workflows in an external Python-based service.
-- **Asynchronous Processing**:
-  - Built to handle large-scale data ingestion using queue systems or event-driven architectures.
-- **Error Handling and Monitoring**:
-  - Logs errors during ingestion and integrates with monitoring tools for visibility.
+- **Error Handling**:
+  - Errors are handled and thrown.
 
 ---
 
@@ -74,11 +67,3 @@ This repository contains a NestJS backend application designed to manage users, 
 - **API Design**: RESTful APIs with role-based access control.
 
 ---
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/nestjs-user-document-service.git
-   cd nestjs-user-document-service
