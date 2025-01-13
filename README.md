@@ -21,6 +21,7 @@ This repository contains a NestJS backend application designed to manage users, 
 ## Features
 
 ### **User Management**
+
 - **Role Management**:
   - Roles: Admin, Editor, Viewer.
   - Admins manage users, roles, and all application data.
@@ -34,6 +35,7 @@ This repository contains a NestJS backend application designed to manage users, 
   - Protects APIs from unauthorized access.
 
 ### **Authentication**
+
 - **JWT Authentication**:
   - Issue JSON Web Tokens (JWTs) on successful login.
   - Tokens are used to authenticate subsequent requests.
@@ -42,6 +44,7 @@ This repository contains a NestJS backend application designed to manage users, 
   - Supports enforcing password strength policies.
 
 ### **Document Management**
+
 - **CRUD Operations**:
   - Endpoints to create, read, update, and delete documents.
   - Includes support for document metadata and categorization.
@@ -52,6 +55,7 @@ This repository contains a NestJS backend application designed to manage users, 
   - Audit logs for tracking document-related actions.
 
 ### **Ingestion Trigger**
+
 - **Integration with Python Backend**:
   - APIs to initiate ingestion workflows in an external Python-based service.
 - **Asynchronous Processing**:
@@ -62,6 +66,7 @@ This repository contains a NestJS backend application designed to manage users, 
 ---
 
 ## Technologies Used
+
 - **Framework**: [NestJS](https://nestjs.com/) for modular and scalable development.
 - **Database**: [TypeORM](https://typeorm.io/) for managing relational databases.
 - **Authentication**: JWT for secure user sessions.
@@ -73,6 +78,7 @@ This repository contains a NestJS backend application designed to manage users, 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/nestjs-user-document-service.git
    cd nestjs-user-document-service
